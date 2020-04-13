@@ -20,7 +20,9 @@ body{
             font-weight: 200;
             color: $color-neutral-gravish-blue;
             font-size: 1.2em;
-            width: 36em;
+            @media #{$bp-desktop} {
+                width: 36em;
+            }
         }
         strong{
             font-weight: 600;

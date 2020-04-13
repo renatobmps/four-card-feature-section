@@ -17,8 +17,10 @@ body {
     body header > p {
       font-weight: 200;
       color: #a3a5ae;
-      font-size: 1.2em;
-      width: 36em; }
+      font-size: 1.2em; }
+      @media (min-width: 1440px) {
+        body header > p {
+          width: 36em; } }
     body header strong {
       font-weight: 600;
       color: #4c4e61;
