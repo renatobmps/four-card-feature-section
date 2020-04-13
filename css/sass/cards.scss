@@ -1,0 +1,56 @@
+@mixin card ($border-color) {
+    background: white;
+    padding: 1em;
+    border-radius: 10px;
+    border-top: .5em solid $border-color;
+    display: flex;
+    flex-direction: column;
+    margin: 2em auto;
+    box-shadow: 0 0 1em $color-neutral-gravish-blue;
+    h2{
+        font-weight: 600;
+        margin: 0;
+    }
+    p{
+        font-weight: 200;
+        color: $color-neutral-gravish-blue;
+        font-size: 1em;
+        margin: 0.1em 0.1em 2em 0.1em;
+    }
+    img{
+        align-self: flex-end;
+    }
+    @media #{$bp-desktop} {
+        padding: 2em;
+        text-align: start;
+        width: 20%;
+        margin: 1em;
+    }
+}
+
+main{
+    .card:nth-child(1){
+        @include card($color-primary-cyan);
+        @media #{$bp-desktop} {
+            margin: 10em 1em;
+        }
+    }
+    .card:nth-child(2){
+        @include card($color-primary-red);
+    }
+    .card:nth-child(3){
+        @include card($color-primary-orange);
+    }
+    .card:nth-child(4){
+        @include card($color-primary-blue);
+        @media #{$bp-desktop} {
+            margin: 10em 1em;
+        }
+    }
+    @media #{$bp-desktop} {
+        display: flex;
+        flex-flow: column wrap;
+        height: 600px;
+        align-content: center;
+    }
+}

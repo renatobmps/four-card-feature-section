@@ -1,0 +1,157 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+body {
+  font-size: 15px;
+  font-family: 'Poppins', sans-serif;
+  color: #4c4e61;
+  background: #fafafa;
+  padding: 1.5em; }
+  body header {
+    text-align: center; }
+    body header h1 {
+      font-weight: 400;
+      font-size: 1.85em; }
+      @media (min-width: 1440px) {
+        body header h1 {
+          font-size: 2.76em;
+          margin: 0; } }
+    body header > p {
+      font-weight: 200;
+      color: #a3a5ae;
+      font-size: 1.2em;
+      width: 36em; }
+    body header strong {
+      font-weight: 600;
+      color: #4c4e61;
+      font-size: 1.6em; }
+      @media (min-width: 1440px) {
+        body header strong {
+          font-size: 2.4em; } }
+    body header p:nth-child(2) {
+      margin: 0; }
+    @media (min-width: 1440px) {
+      body header {
+        display: flex;
+        flex-direction: column;
+        align-items: center; } }
+
+main .card:nth-child(1) {
+  background: white;
+  padding: 1em;
+  border-radius: 10px;
+  border-top: 0.5em solid #45d3d3;
+  display: flex;
+  flex-direction: column;
+  margin: 2em auto;
+  box-shadow: 0 0 1em #a3a5ae; }
+  main .card:nth-child(1) h2 {
+    font-weight: 600;
+    margin: 0; }
+  main .card:nth-child(1) p {
+    font-weight: 200;
+    color: #a3a5ae;
+    font-size: 1em;
+    margin: 0.1em 0.1em 2em 0.1em; }
+  main .card:nth-child(1) img {
+    align-self: flex-end; }
+  @media (min-width: 1440px) {
+    main .card:nth-child(1) {
+      padding: 2em;
+      text-align: start;
+      width: 20%;
+      margin: 1em; } }
+  @media (min-width: 1440px) {
+    main .card:nth-child(1) {
+      margin: 10em 1em; } }
+main .card:nth-child(2) {
+  background: white;
+  padding: 1em;
+  border-radius: 10px;
+  border-top: 0.5em solid #ea5353;
+  display: flex;
+  flex-direction: column;
+  margin: 2em auto;
+  box-shadow: 0 0 1em #a3a5ae; }
+  main .card:nth-child(2) h2 {
+    font-weight: 600;
+    margin: 0; }
+  main .card:nth-child(2) p {
+    font-weight: 200;
+    color: #a3a5ae;
+    font-size: 1em;
+    margin: 0.1em 0.1em 2em 0.1em; }
+  main .card:nth-child(2) img {
+    align-self: flex-end; }
+  @media (min-width: 1440px) {
+    main .card:nth-child(2) {
+      padding: 2em;
+      text-align: start;
+      width: 20%;
+      margin: 1em; } }
+main .card:nth-child(3) {
+  background: white;
+  padding: 1em;
+  border-radius: 10px;
+  border-top: 0.5em solid #fcaf4a;
+  display: flex;
+  flex-direction: column;
+  margin: 2em auto;
+  box-shadow: 0 0 1em #a3a5ae; }
+  main .card:nth-child(3) h2 {
+    font-weight: 600;
+    margin: 0; }
+  main .card:nth-child(3) p {
+    font-weight: 200;
+    color: #a3a5ae;
+    font-size: 1em;
+    margin: 0.1em 0.1em 2em 0.1em; }
+  main .card:nth-child(3) img {
+    align-self: flex-end; }
+  @media (min-width: 1440px) {
+    main .card:nth-child(3) {
+      padding: 2em;
+      text-align: start;
+      width: 20%;
+      margin: 1em; } }
+main .card:nth-child(4) {
+  background: white;
+  padding: 1em;
+  border-radius: 10px;
+  border-top: 0.5em solid #549ef2;
+  display: flex;
+  flex-direction: column;
+  margin: 2em auto;
+  box-shadow: 0 0 1em #a3a5ae; }
+  main .card:nth-child(4) h2 {
+    font-weight: 600;
+    margin: 0; }
+  main .card:nth-child(4) p {
+    font-weight: 200;
+    color: #a3a5ae;
+    font-size: 1em;
+    margin: 0.1em 0.1em 2em 0.1em; }
+  main .card:nth-child(4) img {
+    align-self: flex-end; }
+  @media (min-width: 1440px) {
+    main .card:nth-child(4) {
+      padding: 2em;
+      text-align: start;
+      width: 20%;
+      margin: 1em; } }
+  @media (min-width: 1440px) {
+    main .card:nth-child(4) {
+      margin: 10em 1em; } }
+@media (min-width: 1440px) {
+  main {
+    display: flex;
+    flex-flow: column wrap;
+    height: 600px;
+    align-content: center; } }
+
+.attribution {
+  font-size: 11px;
+  text-align: center; }
+
+.attribution a {
+  color: #3e52a3; }
+
+/*# sourceMappingURL=all.css.map */

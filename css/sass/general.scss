@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+body{
+    font-size: $font-size;
+    font-family: 'Poppins', sans-serif;
+    color: $color-neutral-very-dark-blue;
+    background: $color-neutral-very-light-gray;
+    padding: 1.5em;
+    header{
+        text-align: center;
+        h1{
+            font-weight: 400;
+            font-size: 1.85em;
+            @media #{$bp-desktop} {
+                font-size: 2.76em;
+                margin: 0;
+            }
+        }
+        & > p{
+            font-weight: 200;
+            color: $color-neutral-gravish-blue;
+            font-size: 1.2em;
+            width: 36em;
+        }
+        strong{
+            font-weight: 600;
+            color: $color-neutral-very-dark-blue;
+            font-size: 1.6em;
+            @media #{$bp-desktop} {
+                font-size: 2.4em;
+            }
+        }
+        & p:nth-child(2){
+            margin: 0;
+        }
+        @media #{$bp-desktop} {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+    }
+}
